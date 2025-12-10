@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --rose-500:#B66B6B;
+  --rose-600:#A64F54;
+}
+
+body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial}
+
+/* small helpers to match the design */
+.hero-frame{background-image: url('/src/assets/frame-left.png'); background-repeat:no-repeat; background-position: left top}
+
+/* scrolling section snap (optional) */
+html,body,#root{height:100%}
